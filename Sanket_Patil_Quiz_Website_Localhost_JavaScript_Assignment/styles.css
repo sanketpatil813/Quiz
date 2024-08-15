@@ -1,0 +1,267 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+ }
+
+.logo12 {
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.search-bar-container {
+    position: relative;
+    /* width: 100%; */
+   width: 800px;
+   margin-left: -180px;
+}
+ 
+.search-bar {
+    padding-right: 40px;
+}
+ 
+/* Search button */
+.search-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    color: #007bff;
+    cursor: pointer;
+}
+ 
+.search-button i {
+    font-size: 18px;
+}
+
+.user-info {
+    margin-top: auto;
+    text-align: right;
+    padding-left: 20px;
+    justify-content: end;
+} 
+.rounded-circle{
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+
+nav {
+    background-color: #4A44A8;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+ 
+}
+
+.cart-img {
+    width: 200px;
+    height: 150px;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.user-info h6 strong {
+    margin-top: -100px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.shipping-details {
+    background: url('shipping_bgrd2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 10px;
+    padding: 150px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ 
+.form-wrapper {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+ 
+.form-container {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.form-row {
+    margin-bottom: 15px;
+}
+ 
+.flex-row {
+    display: flex;
+    gap: 20px;
+}
+ 
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(126, 124, 124);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+ 
+textarea {
+    height: 100px; 
+}
+ 
+button {
+    background: white;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+button:hover {
+    background: rgb(122, 122, 122);
+}
+.address-type {
+    margin-bottom: 15px;
+}
+ 
+.address-type p {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight:lighter;
+}
+ 
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+}
+ 
+.radio-group label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+ 
+.radio-group input[type="radio"] {
+    margin-right: 5px; 
+}
+
+
+.search-button {
+    /* position: absolute; */
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    color: #007bff;
+    cursor: pointer;
+    /* margin-left: 50px; */
+    /* margin-right: -50px; */
+    
+}
+ 
+.search-button i {
+    font-size: 18px;
+    justify-content: end;
+    margin-right: -750px;
+    /* margin-left: 100px; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.option-group {
+    margin-bottom: 10px;
+}
+.option-group input[type="text"] {
+    width: calc(30% - 24px);
+    display: inline-block;
+}
+.add-option {
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+.correct-option-group {
+    margin-top: 15px;
+}
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.questiontext input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
